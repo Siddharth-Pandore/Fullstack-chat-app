@@ -1,0 +1,28 @@
+    For BACKEND
+1) npm create vite@latest .
+2) npm install to install the dependencies.
+3) set up express server, api, etc.
+4) set up mongodb copy the password and dbstring.
+5) Create "User" schema in models => user.model.js
+6) Test all the post methods (login, logout, and signup) in postman
+7) After that to update the profile pic
+   we are using cloudinary library
+
+8) Install CORS in backend/index.js
+   npm i cors@2.8.5
+
+   For FRONTEND
+1) npm i react-router-dom react-hot-toast
+2) npm install -D tailwindcss postcss autoprefixer
+   npx tailwindcss init -p
+   copy paste the tailwind.config.js file
+   copy past the index.css file
+3) Use DaisyUI to get components
+
+4) Use Axios to get api
+   npm i axios@1.7.7 zustand@5.0.1
+   zustand = global state management solution
+
+5) npm i lucid-react@0.459.0 
+
+6) To get realtime chat we shall use socket.io
